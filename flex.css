@@ -1,38 +1,105 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Archivo');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
-.flex {
-    display: flex;
-}
-
-.across {
-    justify-content: center;
-}
-
-.middle {
-    align-items: center;
-}
-
-.wrapper {
-   height: 100vh;
-   background: rgba(255, 0, 255, 0.4);
-}
-
-.flex-container {
-    width: calc(100vw - 100px);
-    height: calc(100vh - 100px);
-    background: rgba(255, 0, 0, 0.7);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
 .flex-item {
-    background: rgba(192, 192, 192, 0.6);
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+  display: flex;
+}
+
+.across {
+  justify-content: center
+}
+
+.middle {
+  align-items: center;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.logo {
+  margin: 50px;
+}
+
+header {
+  margin-top: 20px;
+}
+
+.important p {
+  margin: 3px;
+  padding: 0;
+}
+
+.important {
+  margin: 20px;
+}
+
+p {
+  font-family: 'Archivo', sans-serif;
+  margin: 20px;
+  padding: 5px 20px;
+  font-size: 20px;
+}
+
+.blue {
+  background-color: #0e85b2;
+  padding: 10px 40px;
+  color: #fff;
+}
+
+.home_banner img {
+  width: 100vw;
+  height: 50%;
+}
+
+.purpose {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+  color: #fff;
+}
+
+
+h1 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 70px;
+  line-height: 100px;
+  font-weight: 100;
+  text-shadow: 2px 2px 8px  #8c8c8c;
+}
+
+h3 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+  font-weight: 100;
+  text-shadow: 2px 2px 8px  #8c8c8c;
+}
+
+
+.resident {
+  padding: 20px;
+  background: #fff;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  color: #8c8c8c;
+}
+
+.property-manager {
+  padding: 20px;
+  margin: 20px;
+  background-color: #0e85b2;
+  font-family: 'Archivo', sans-serif;
+  font-size: 20px;
+  color: #fff;
 }
