@@ -93,6 +93,7 @@ h3 {
   font-family: 'Archivo', sans-serif;
   font-size: 20px;
   color: #8c8c8c;
+  box-shadow: 2px 4px 5px 0px rgba(75, 75, 75, 0.3);
 }
 
 .property-manager {
@@ -102,4 +103,5 @@ h3 {
   font-family: 'Archivo', sans-serif;
   font-size: 20px;
   color: #fff;
+  box-shadow: 2px 4px 5px 0px rgba(75, 75, 75, 0.3);
 }
