@@ -79,6 +79,15 @@ h1 {
   text-shadow: 5px 5px 2px rgba(75, 75, 75, 0.3);
 }
 
+h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  padding-top: 32px;
+  font-size: 44px;
+  color: #0a86b5;
+  padding-bottom: 24px
+}
+
 h3 {
   font-family: 'Lato', sans-serif;
   font-size: 26px;
