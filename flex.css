@@ -63,6 +63,10 @@ p {
   height: 50%;
 }
 
+.home_banner {
+  position: relative;
+}
+
 .purpose {
   position: absolute;
   top: 40%;
