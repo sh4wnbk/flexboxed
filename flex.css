@@ -58,15 +58,18 @@ p {
   color: #fff;
 }
 
+.home_banner {
+  position: relative;
+}
+
 .home_banner img {
   width: 100vw;
   height: 50%;
-  position: relative;
 }
 
 .purpose {
   position: absolute;
-  top: 90%;
+  top: 20%;
   left: 8%;
   color: #fff;
 }
