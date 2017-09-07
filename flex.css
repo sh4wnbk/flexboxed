@@ -58,9 +58,8 @@
 }
 
 .title {
-  position: absolute;
-  width: 100vw;
-  height: 30vw;
+  position: relative;
+  top: 0;
 }
 
 .title h1 {
@@ -87,9 +86,9 @@
 }
 
 .middle-bar {
-  background: rgb(255, 0, 0);
-  width: 525px;
-  height: 3px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 50px;
   top: 95vh;
   position: absolute;
   right: 30.5vw;
@@ -100,7 +99,7 @@
   position: relative;
   height: 100vh;
   width: 50vw;
-  background: url(images/nature-forest-trees-fog.jpeg);
+  background: url();
   background-size: cover;
   background-repeat: no-repeat;
 }
