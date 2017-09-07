@@ -27,6 +27,11 @@
 .hero-image {
   align-items: flex-start;
   position: relative;
+  background: url(images/ortler-1449017_1920.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  transform: translateZ(0);
 }
 
 .toggle-btn {
@@ -42,7 +47,7 @@
 }
 
 .toggle-btn:hover {
-  border: 1px solid rgba(0, 0, 0, 0.6);
+  border: 1px solid rgb(255,255,255);
   cursor: pointer;
 }
 
@@ -51,20 +56,20 @@
 }
 
 .toggle-btn span {
-  width: 20px;
-  height: 2px;
-  background: rgba(0, 0, 0, 0.6);
+  width: 30px;
+  height: 4px;
+  background: rgb(255,255,255);
   margin-bottom: 2px;
 }
 
 .title {
-  position: relative;
-  top: 0;
+  position: absolute;
+  height: 75vh;
 }
 
 .title h1 {
   font-family: 'Roboto', sans-serif;
-  font-size: 180px;
+  font-size: 200px;
   color: rgba(204, 102, 153,0.7);
 }
 
@@ -74,6 +79,7 @@
   height: 3px;
   position: absolute;
   top: 60vh;
+  left: 0;
 }
 
 .right-bar {
@@ -88,29 +94,36 @@
 .middle-bar {
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  font-size: 50px;
-  top: 95vh;
+  font-size: 30px;
+  top: 85vh;
   position: absolute;
-  right: 30.5vw;
+  right: 45%;
   transform: rotate(90deg);
+  letter-spacing: 10px;
 }
 
 .left-background-image {
   position: relative;
   height: 100vh;
   width: 50vw;
-  background: url();
+  background: url(images/nature-forest-trees-fog.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.layer-image {
-  width: 40vw;
+.layer-image img {
+  width: 30vw;
+  margin-left: 30%;
 }
 
 .layer-image-two {
   position: absolute;
   width: 30vw;
-  bottom: 40px;
-  left: 40vw;
+  bottom: 20px;
+  left: 25vw;
+}
+
+.right-block {
+  width: 50vw;
+  background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }
