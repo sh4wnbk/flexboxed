@@ -24,3 +24,94 @@
   flex-direction: column;
 }
 
+.hero-image {
+  align-items: flex-start;
+  position: relative;
+}
+
+.toggle-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  flex-direction: column;
+  margin-right: 200px;
+  position: absolute;
+  top: 2%;
+  left: 70%;
+  z-index: 1;
+}
+
+.toggle-btn:hover {
+  border: 1px solid rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+.toggle-btn:active {
+   transform: translateY(5px)
+}
+
+.toggle-btn span {
+  width: 20px;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.6);
+  margin-bottom: 2px;
+}
+
+.title {
+  position: absolute;
+  width: 100vw;
+  height: 30vw;
+}
+
+.title h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 180px;
+  color: rgba(204, 102, 153,0.7);
+}
+
+.left-bar {
+  background: rgb(255, 0, 0);
+  width: 250px;
+  height: 3px;
+  position: absolute;
+  top: 60vh;
+}
+
+.right-bar {
+  background: rgb(255, 0, 0);
+  width: 250px;
+  height: 3px;
+  position: absolute;
+  top: 60vh;
+  left: calc(100vw - 250px);
+}
+
+.middle-bar {
+  background: rgb(255, 0, 0);
+  width: 525px;
+  height: 3px;
+  top: 95vh;
+  position: absolute;
+  right: 30.5vw;
+  transform: rotate(90deg);
+}
+
+.left-background-image {
+  position: relative;
+  height: 100vh;
+  width: 50vw;
+  background: url(images/nature-forest-trees-fog.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.layer-image {
+  width: 40vw;
+}
+
+.layer-image-two {
+  position: absolute;
+  width: 30vw;
+  bottom: 40px;
+  left: 40vw;
+}
