@@ -126,3 +126,127 @@
   width: 50vw;
   background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
 }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  color: #444;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  image-rendering: -webkit-optimize-contrast;
+}
+
+.hero-wrapper, .strip, .card, .dot, .caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-wrapper {
+  height: 100vh;
+}
+
+.image-one, .image-two, .image-three, .image-four, .image-five {
+  width: calc(100vw - 20%);
+}
+
+.hero-wrapper .strip {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.image-one {
+  background-image: url("images/man-person-suit-united-states-of-america.jpg");
+}
+
+.image-two {
+  background: url(images/pexels-photo-211050.jpeg);
+}
+
+.image-three {
+  background: url(images/pexels-photo-253758.jpeg);
+}
+
+.image-four {
+  background: url(images/pexels-photo-325531.jpeg);
+}
+
+.image-five {
+  background: url(images/pexels-photo-91227.jpeg);
+}
+
+.image-one:hover {
+  background-image: url("images/child-children-girl-happy.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: .5s ease;
+}
+
+.image-two:hover {
+  background: url(images/pexels-photo-249761.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: .5s ease;
+}
+
+.image-three:hover {
+  background: url(images/pexels-photo-365373.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: .5s ease;
+}
+
+.image-four:hover {
+  background: url(images/pexels-photo-428341.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: .5s ease;
+}
+
+.image-five:hover {
+  background-image: url("images/pexels-photo-324658.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  transition: .5s ease;
+}
+
+.caption {
+  color: #EEE;
+  flex-direction: column;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.card {
+  width: 150px;
+  padding: 100px;
+  justify-content: space-around;
+  flex-direction: column;
+  visibility: hidden;
+}
+
+.strip:hover p {
+  visibility: visible;
+}
+
