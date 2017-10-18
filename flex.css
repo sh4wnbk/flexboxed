@@ -19,18 +19,99 @@
     align-items: center;
 }
 
-.content-wrap {
-  flex-direction: column;
+img {
+  width: 100%;
+}
+
+.wrapper {
   width: 100vw;
   height: 100vh;
-  background: rgb(211, 210, 201);
 }
 
-.content-block {
-  background: rgb(25, 37, 68);
-  width: calc(100vw - 14%);
-  height: calc(100vh - 13%);
-  position: relative;
-  left: 4%;
+.album {
+  width: 800px;
+  height: 800px;
+  border: 2px solid red;
+  border-radius: 50%;
 }
 
+.scroll-one {
+  background: url(images/pexels-photo-314582.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.scroll-two {
+  background: url(images/pexels-photo-283196.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.scroll-three {
+  background: url(images/pexels-photo-10988.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.scroll-four {
+  background: url(images/pexels-photo-206326.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  border: 2px solid red;
+  border-radius: 50%;
+}
+
+.scroll-five {
+  background: url(images/pexels-photo-227349.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  
+}
+
+.scroll-six {
+  background: url(images/pexels-photo-428546.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.scroll-seven {
+  background: url(images/pexels-photo-326603.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.scroll-eight {
+  background-image: url(images/pexels-photo-415484.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+}
