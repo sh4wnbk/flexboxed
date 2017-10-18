@@ -19,20 +19,14 @@
     align-items: center;
 }
 
-img {
-  width: 100%;
-}
-
 .wrapper {
   width: 100vw;
-  height: 100vh;
+  height: 700px;
 }
 
 .album {
   width: 800px;
-  height: 800px;
-  border: 2px solid red;
-  border-radius: 50%;
+  height: 700px;
 }
 
 .scroll-one {
@@ -42,8 +36,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  border: 2px solid red;
-  border-radius: 50%;
 }
 
 .scroll-two {
@@ -53,8 +45,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  border: 2px solid red;
-  border-radius: 50%;
 }
 
 .scroll-three {
@@ -64,8 +54,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  border: 2px solid red;
-  border-radius: 50%;
 }
 
 .scroll-four {
@@ -75,8 +63,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  border: 2px solid red;
-  border-radius: 50%;
 }
 
 .scroll-five {
@@ -86,7 +72,6 @@ img {
   background-repeat: no-repeat;
   background-size: cover;
   height: 700px;
-  
 }
 
 .scroll-six {
