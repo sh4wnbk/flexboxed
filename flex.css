@@ -28,6 +28,9 @@
 
 .content-block {
   background: rgb(25, 37, 68);
-  width: calc(100vw - 20%);
-  height: calc(100vh - 20%);
+  width: calc(100vw - 14%);
+  height: calc(100vh - 13%);
+  position: relative;
+  left: 4%;
 }
+
