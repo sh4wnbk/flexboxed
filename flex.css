@@ -14,11 +14,6 @@ body {
   text-decoration: none;
 }
 
-img {
-  width: 100%;
-  image-rendering: -webkit-optimize-contrast;
-}
-
 .hero-wrapper, .strip, .card, .dot, .caption {
   display: flex;
   justify-content: center;
