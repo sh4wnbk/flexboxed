@@ -19,20 +19,15 @@
     align-items: center;
 }
 
-.wrapper {
-   height: 100vh;
-   background: rgba(255, 0, 255, 0.4);
+.content-wrap {
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: rgb(211, 210, 201);
 }
 
-.flex-container {
-    width: calc(100vw - 100px);
-    height: calc(100vh - 100px);
-    background: rgba(255, 0, 0, 0.7);
-}
-
-.flex-item {
-    background: rgba(192, 192, 192, 0.6);
-    width: 100px;
-    height: 100px;
-    margin: 5px;
+.content-block {
+  background: rgb(25, 37, 68);
+  width: calc(100vw - 20%);
+  height: calc(100vh - 20%);
 }
